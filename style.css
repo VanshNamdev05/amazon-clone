@@ -1,0 +1,320 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing : border-box;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #0F1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo{
+    height: 50px;
+    width: 113px;
+}
+
+.border{
+    border: 2px solid transparent;
+    transition: border 0.3s ease;
+}
+
+.logo{
+    height: 50px;
+    width: 100%;
+    background-image: url("https://github.com/VanshNamdev05/Projects.../blob/main/Amazon%20clone/amazon_logo.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.border:hover{
+    border: 1.5px solid white;
+}
+
+.add-icon{
+    display:flex;
+    align-items: center;
+}
+
+/* styling for deliver to india box */
+
+.add-first{
+    color:#CCCCCC;
+    font-size: 1rem;
+    margin-left: 15px;
+}
+
+.add-second{
+    color: #FFFFFF;
+    margin-left: 3px;
+}
+
+/* search box style */
+
+.nav-search{
+    display:flex;
+    width: 650px;
+    height: 40px;
+    border-radius: 5px;
+    justify-content: space-evenly;
+}
+
+.search-select{
+    background-color: #F3F3F3;
+    width: 50px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    background-color: rgb(165, 50, 131);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+}
+
+span{
+    font-size: 0.8rem;
+}
+
+.nav-second{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.nav-search:hover{
+    border: 2px solid rgb(233, 77, 191);
+    
+}
+
+.nav-cart i {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+
+
+.panel-options{
+    width: 1176px;
+    font-size: 0.85rem;
+}
+
+.panel-options p {
+    display:inline;
+    margin: 15px;
+}
+
+.panel{
+    height: 40px;
+    background-color: #222F3D;
+    color: #F3F3F3;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-all{
+    width: 59px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+
+/* main image styling */
+.main-section{
+    background-image: url("hero image.jpg");
+    height: 300px;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    /* background-position: center; */
+}
+
+.left-button{
+    position: absolute;
+    top: 28%;
+    left: 15px;
+    /* cursor: pointer; */
+}
+
+.right-button{
+    position: absolute;
+    top: 28%;
+    right: 15px;
+    cursor: pointer;
+}
+
+.slide-button{
+    font-size: 3rem;
+    color: #F3F3F3;
+}
+
+/* shopping section styling */
+
+.box{
+    /* border: 2px solid black; */
+    height: 400px;
+    width: 23%;
+    padding: 20px 0px 15px;
+    margin-top: 22px;
+    background-color: white;
+}
+
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #dedddd94;
+}
+
+.box1-image{
+    background-image: url("gifts.jpg");
+    margin-top: 0.6rem;
+    background-size: cover;
+    height: 300px;
+    background-position: center;
+}
+
+.box2-image{
+    background-image: url("pc_deals.jpg");
+    margin-top: 0.6rem;
+    background-size: cover;
+    height: 300px;
+    background-position: center;
+}
+
+.box3-image{
+    background-image: url("delightful_deals.jpg");
+    margin-top: 0.6rem;
+    background-size: cover;
+    height: 300px;
+    background-position: center;
+}
+
+.box4-image{
+    background-image: url("game_on.jpg");
+    margin-top: 0.6rem;
+    background-size: cover;
+    height: 300px;
+    background-position: center;
+}
+
+.box1-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box1-content p{
+    margin-top: 0.6rem;
+    color: #007185;
+}
+
+
+/* Footer styling  */
+
+.foot1{
+    background-color: #485e75;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+
+}
+
+.foot1:hover{
+    background-color: #222F3D;
+    cursor: pointer;
+}
+
+footer{
+    margin-top: 15px;
+
+}
+
+.foot-2{
+    background-color: #222F3D;
+    color: #DDDDDD;
+    display: flex;
+    justify-content: space-evenly;
+    height: 300px;
+}
+
+
+
+ul a{
+    display: block;
+    font-size: 0.8rem;
+    margin-top: 10px;
+}
+
+ul a:hover{
+    text-decoration: underline;
+}
+
+ul{
+    margin-top: 20px;
+
+}
+
+ul li{
+    list-style-type: none;
+}
+
+ul li p{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.foot-3{
+    background-color: #222F3D;
+    border-top: 0.1px solid white;
+    color: white;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    height: 50px;
+    width: 100%;
+    background-image: url("amazon_logo.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.foot-4{
+    background-color: #0F1111;
+    color: white;
+    height: 76px;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.pages{
+    padding-top: 22px;
+}
+
+.copyright{
+    padding-top: 5px;
+}
